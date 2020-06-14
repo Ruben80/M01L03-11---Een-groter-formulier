@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opdracht pagina</title>
+  </head>
+  <body>
+    <header><h1>Welkom bij deze opdracht!</h1></header>
+    <main>
+      <form name="contact" method="post" data-netlify="true">
+        <p>
+          <label for="name">Name</label><br />
+          <input type="text" name="name" id="name" required />
+        </p>
+        <p>
+          <label for="email">Email</label><br />
+          <input type="email" name="email" id="email" required />
+        </p>
+        <p>
+          <label for="phone">Phonenumber</label><br />
+          <input type="tel" name="phone" id="phone" />
+        </p>
+        <p>
+          <label for="age">Age</label><br />
+          <input type="number" name="age" id="age" value="18" />
+        </p>
+        <p>
+          <label for="date">Date Of Birth</label><br />
+          <input type="date" name="date" id="date" />
+        </p>
+
+        <p>
+          Gender
+          <br>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="other">Other</label>
+          <input type="radio" name="gender" id="other" value="other" />
+          <label for="none">None</label>
+          <input type="radio" name="gender" id="none" value="none" />
+        </p>
+
+        <p>
+          Favorite Cuisine
+          <br>
+          <input type="checkbox" id="french" name="french" value="frans" />
+          <label for="french"> French</label><br />
+
+          <input type="checkbox" id="italian" name="italian" value="italian" />
+          <label for="italian"> Italian</label><br />
+
+          <input
+            type="checkbox"
+            id="spanish "
+            name="spanish "
+            value="spanish "
+          />
+          <label for="spanish"> Spanish </label><br />
+
+          <input type="checkbox" id="arabic" name="arabic" value="arabic" />
+          <label for="arabic"> Arabic </label><br />
+        </p>
+
+        <p>
+          <label>Favorite Color Of Your Apron
+            <br>
+          </label>
+          <input type="color" name="color" id="color" />
+        </p>
+        <p>
+          <label for="bio">Bio</label><br />
+          <textarea name="textarea" id="bio" cols="30" rows="10"></textarea
+          ><br /><br />
+        </p>
+        <p>
+          <label for="file">File</label>
+          <input type="file" id="file" name="file" />
+        </p>
+        <p>
+          <label for"url">URL:</label>
+          <input type="url" name="url" id="url"/><br /><br />
+        </p>
+          <input type="reset" value="Reset" />
+        <p>
+          <input type="submit" />
+        </p>
+      </form>
+    </main>
+    <footer>
+      <nav>
+        <ul class="nav">          
+          <li>
+            <a target="_blank" href="http://ruben80.pythonanywhere.com/"
+              >Portfolio Page</a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="http://ruben80.pythonanywhere.com/contact.html"
+              >Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
